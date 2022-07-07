@@ -1,0 +1,4 @@
+# Installing Poppler dependencies.
+RUN apk --no-cache add \
+	poppler-utils \
+	ffmpeg
